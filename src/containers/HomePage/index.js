@@ -1,7 +1,13 @@
-import { Header } from '../../components';
+import { 
+  Header,
+  WatchTv
+} from '../../components';
 
 export const HomePage = () => {
   return (
-    <Header />
+    <div>
+      <Header />
+      <WatchTv />
+    </div>
   )
 }

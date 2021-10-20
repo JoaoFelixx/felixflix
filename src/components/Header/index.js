@@ -35,8 +35,16 @@ export const Header = () => {
       <Content> Assista onde quiser. Cancele quando quiser. </Content>
       <Description> Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura. </Description>  
       <DivSearch>
-        <Input placeholder="Digite seu E-mail" /><Button style={{ background: '#E50914' }} type="primary">Vamos lá</Button>
+        <Input 
+          style={{ width: '69%' }} 
+          placeholder="Digite seu E-mail" />
+        <Button 
+          style={{ width: '30%', background: '#E50914' }} 
+          type="primary">
+            Vamos lá
+        </Button>
       </DivSearch>
+      <br/><br/><br/>
     </StyledHeader>
   );
 }
