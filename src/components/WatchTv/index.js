@@ -1,5 +1,7 @@
 import { 
   FlexContainer,
+  Description,
+  SubDescription,
   Content,
   Image,
 } from './style' 
@@ -8,7 +10,11 @@ export const WatchTv = () => {
   return (
     <FlexContainer>
       <Content>
-        <h1>Filme alshdladlald</h1>
+        <Description>Aproveite na TV. </Description>
+        <SubDescription>
+          Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, 
+          aparelhos de Blu-ray e outros dispositivos.
+        </SubDescription>
       </Content>
       
       <Content>
