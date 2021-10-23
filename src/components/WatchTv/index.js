@@ -18,7 +18,7 @@ export const WatchTv = () => {
       </Content>
       
       <Content>
-        <Image src="./img/tv-felixflix.svg" alt="TV com felixflix"/>
+        <Image src="./img/tv.png" alt="TV com felixflix"/>
       </Content>
     </FlexContainer>
   );
