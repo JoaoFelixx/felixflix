@@ -9,7 +9,7 @@ import {
 export const WatchTv = () => {
   return (
     <FlexContainer>
-      <Content>
+      <Content style={{ position: 'relative', top: '40px' }}>
         <Description>Aproveite na TV. </Description>
         <SubDescription>
           Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, 

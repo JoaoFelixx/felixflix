@@ -31,17 +31,23 @@ export const Description = styled.h1`
   font-size: 45px;
   color: #fff;
   font-weight: bold;
+  text-align: left;
 `;
 
 export const SubDescription = styled.p`
   font-size: 26px;
   color: #fff;
+  text-align: left;
 `;
 
 export const Image = styled.img`
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  @media (max-width: 920px) {
+    position: relative;
+    top: 20px;
+  }
 `;
 
 
