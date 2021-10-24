@@ -3,6 +3,7 @@ import {
   WatchTv,
   Download,
   GraySeparator,
+  WatchWheneverYouWant,
 } from '../../components';
 
 export const HomePage = () => {
@@ -13,6 +14,8 @@ export const HomePage = () => {
       <WatchTv />
       <GraySeparator />
       <Download />
+      <GraySeparator />
+      <WatchWheneverYouWant />
       <GraySeparator />
     </div>
   )
