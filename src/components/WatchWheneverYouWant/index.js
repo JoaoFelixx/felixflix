@@ -1,10 +1,10 @@
-import { 
+import {
   FlexContainer,
+  Content,
   Description,
   SubDescription,
-  Content,
   Image,
-} from './style' 
+} from '../StyledComponents'
 
 export const WatchWheneverYouWant = () => {
   return (
@@ -14,7 +14,10 @@ export const WatchWheneverYouWant = () => {
         <SubDescription> Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso. </SubDescription>
       </Content>
       <Content>
-        
+        <Image 
+          loading="lazy"
+          alt="Assista em qualquer dispositivo"
+          src="./img/devices.png" /> 
       </Content>
     </FlexContainer>
   )

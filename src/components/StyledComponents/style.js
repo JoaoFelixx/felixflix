@@ -13,7 +13,6 @@ export const FlexContainer = styled.div`
     flex-direction: column;
     height: auto;
   }
-  
 `;
 
 export const Content = styled.div`  
@@ -32,49 +31,28 @@ export const Description = styled.h1`
   color: #fff;
   font-weight: bold;
   text-align: left;
+
+  @media (max-width: 920px) {
+    text-align: center;
+  }
 `;
 
 export const SubDescription = styled.p`
   font-size: 26px;
   color: #fff;
   text-align: left;
-`;
 
-export const Image = styled.img`
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   @media (max-width: 920px) {
-    position: relative;
-    top: 20px;
+    text-align: center;
   }
 `;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export const Image = styled.img`
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  @media (max-width: 500px) {
+    width: 90%;
+  }
+`;

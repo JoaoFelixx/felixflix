@@ -15,7 +15,10 @@ export const Header = () => {
   return (
     <StyledHeader>
       <FlexContainer> 
-        <Image src="./img/logo.svg" alt="Felixflix"/> 
+        <Image 
+          loading="lazy"
+          src="./img/logo.svg" 
+          alt="Felixflix"/> 
         <div>
           <Select 
             defaultValue="Português"

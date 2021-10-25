@@ -4,14 +4,17 @@ import {
   Description,
   SubDescription,
   Image,
-} from './style'
+} from '../StyledComponents'
 
 export const Download = () => {
   return (
     <FlexContainer>
 
       <Content>
-        <Image src="./img/phone.png"/>
+        <Image 
+          loading="lazy"
+          alt="FelixFlix baixe The Flash e assista de onde estiver"
+          src="./img/phone.png"/>
       </Content>
       <Content style={{ position: 'relative', top: '40px' }}>
         <Description> Baixe séries para assistir offline. </Description>

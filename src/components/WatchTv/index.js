@@ -1,15 +1,15 @@
-import { 
+import {
   FlexContainer,
+  Content,
   Description,
   SubDescription,
-  Content,
   Image,
-} from './style' 
+} from '../StyledComponents'
 
 export const WatchTv = () => {
   return (
     <FlexContainer>
-      <Content style={{ position: 'relative', top: '40px' }}>
+      <Content>
         <Description>Aproveite na TV. </Description>
         <SubDescription>
           Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, 
@@ -18,7 +18,10 @@ export const WatchTv = () => {
       </Content>
       
       <Content>
-        <Image src="./img/tv.png" alt="TV com felixflix"/>
+        <Image
+          loading="lazy" 
+          src="./img/tv.png" 
+          alt="TV com felixflix"/>
       </Content>
     </FlexContainer>
   );
