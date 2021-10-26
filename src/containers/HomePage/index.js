@@ -5,6 +5,7 @@ import {
   GraySeparator,
   WatchWheneverYouWant,
   ProfileForChildren,
+  CommonQuestion,
 } from '../../components';
 
 export const HomePage = () => {
@@ -19,6 +20,8 @@ export const HomePage = () => {
       <WatchWheneverYouWant />
       <GraySeparator />
       <ProfileForChildren />
+      <GraySeparator />
+      <CommonQuestion />
       <GraySeparator />
     </div>
   )

@@ -4,6 +4,7 @@ import { Download } from './Download';
 import { GraySeparator } from './GraySeparator';
 import { WatchWheneverYouWant } from './WatchWheneverYouWant';
 import { ProfileForChildren } from './ProfileForChildren';
+import { CommonQuestion } from './CommonQuestions'
 
 export {
   Header,
@@ -12,4 +13,5 @@ export {
   GraySeparator,
   WatchWheneverYouWant,
   ProfileForChildren,
+  CommonQuestion,
 }

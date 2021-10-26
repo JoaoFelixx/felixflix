@@ -4,7 +4,9 @@ import {
 	Image,
 	SubDescription,
 	Description,
-
+	CentralizedContent,
+	Questions,
+	TitleCommonQuestion,
 } from './style';
 
 export {
@@ -13,4 +15,7 @@ export {
 	Image,
 	SubDescription,
 	Description,
+	CentralizedContent,
+	TitleCommonQuestion,
+	Questions,
 }

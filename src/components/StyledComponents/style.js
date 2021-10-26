@@ -56,3 +56,30 @@ export const Image = styled.img`
     width: 90%;
   }
 `;
+
+export const CentralizedContent = styled.div`
+  background-color: #000000;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+`;
+
+export const Questions = styled.button` 
+  width: 100%;
+  background-color: #303030;
+  color: #ffffff;
+  margin: 4px; 
+  font-size: 26px;
+  font-weight: 400px;
+  text-align: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+`;
+
+export const TitleCommonQuestion = styled.h1` 
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+`; 
