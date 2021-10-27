@@ -1,3 +1,4 @@
+import { localizedStrings } from '../../constants/localizedStrings'
 import {
   FlexContainer,
   Content,
@@ -17,8 +18,8 @@ export const Download = () => {
           src="./img/phone.png"/>
       </Content>
       <Content style={{ position: 'relative', top: '40px' }}>
-        <Description> Baixe séries para assistir offline. </Description>
-        <SubDescription> Salve seus títulos favoritos e sempre tenha algo para assistir. </SubDescription>
+        <Description> { localizedStrings.downloadSeries } </Description>
+        <SubDescription> { localizedStrings.saveYourTitles } </SubDescription>
       </Content>
 
     </FlexContainer>      

@@ -1,3 +1,4 @@
+import { localizedStrings } from '../../constants/localizedStrings'
 import { Button, Select, Input } from 'antd';
 import { 
   FlexContainer,
@@ -21,30 +22,30 @@ export const Header = () => {
           alt="Felixflix"/> 
         <div>
           <Select 
-            defaultValue="Português"
+            defaultValue={localizedStrings.portuguese}
             style={{ width: 120, position: 'relative', left: '-20px' }}>
-            <Option value="jack">Português</Option>
-            <Option value="lucy">Inglês</Option>
+            <Option value="jack"> { localizedStrings.portuguese } </Option>
+            <Option value="lucy">{ localizedStrings.english }</Option>
           </Select>
           <Button 
             style={{ backgroundColor: '#E50914', color: '#fff' }} 
-            danger> Entrar 
+            danger> { localizedStrings.enter }
           </Button>
         </div>
       </FlexContainer>
       
-      <Title> Filmes, séries e muito mais. </Title>
-      <Title> Sem limites. </Title> 
-      <Content> Assista onde quiser. Cancele quando quiser. </Content>
-      <Description> Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura. </Description>  
+      <Title> { localizedStrings.moviesAndSeries } </Title>
+      <Title> { localizedStrings.unlimited } </Title> 
+      <Content> { localizedStrings.watchWhereverYouWantCancelWheneverYouWant } </Content>
+      <Description> { localizedStrings.readyToWatch } </Description>  
       <DivSearch>
         <Input 
           style={{ width: '69%' }} 
-          placeholder="Digite seu E-mail" />
+          placeholder={ localizedStrings.typeYourEmail } />
         <Button 
           style={{ width: '30%', background: '#E50914' }} 
           type="primary">
-            Vamos lá
+            { localizedStrings.comeOn }
         </Button>
       </DivSearch>
       <br/><br/><br/>

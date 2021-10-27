@@ -1,3 +1,4 @@
+import { localizedStrings } from '../../constants/localizedStrings'
 import {
   FlexContainer,
   Content,
@@ -10,11 +11,8 @@ export const WatchTv = () => {
   return (
     <FlexContainer>
       <Content>
-        <Description>Aproveite na TV. </Description>
-        <SubDescription>
-          Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, 
-          aparelhos de Blu-ray e outros dispositivos.
-        </SubDescription>
+        <Description>{ localizedStrings.enjoyOnTV }</Description>
+        <SubDescription>{ localizedStrings.watchOnSmartTv }</SubDescription>
       </Content>
       
       <Content>

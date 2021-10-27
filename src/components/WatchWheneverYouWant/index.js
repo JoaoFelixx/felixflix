@@ -1,3 +1,4 @@
+import { localizedStrings } from '../../constants/localizedStrings'
 import {
   FlexContainer,
   Content,
@@ -10,8 +11,8 @@ export const WatchWheneverYouWant = () => {
   return (
     <FlexContainer>
       <Content>
-        <Description> Assista quando quiser. </Description>
-        <SubDescription> Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso. </SubDescription>
+        <Description>{ localizedStrings.watchWhereverYouWant }</Description>
+        <SubDescription>{ localizedStrings.watchOnMobileTabletSmartTVOrNotebook }</SubDescription>
       </Content>
       <Content>
         <Image 

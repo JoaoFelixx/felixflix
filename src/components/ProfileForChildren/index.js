@@ -1,3 +1,4 @@
+import { localizedStrings } from '../../constants/localizedStrings'
 import {
 	FlexContainer,
 	Content,
@@ -18,11 +19,8 @@ export const ProfileForChildren = () => {
 			</Content>
 			<Content 
 				style={{ position: 'relative', top: '40px' }}>
-				<Description> Crie perfis para crianças. </Description>
-				<SubDescription> 
-					Deixe as crianças se aventurarem com seus personagens favoritos em 
-					um espaço feito só para elas, sem pagar a mais por isso.
-				</SubDescription>
+				<Description>{ localizedStrings.createProfilesForKids }</Description>
+				<SubDescription>{ localizedStrings.letKidsAdventures }</SubDescription>
 			</Content>
 		</FlexContainer>
 	)

@@ -1,7 +1,5 @@
 import { localizedStrings } from '../../constants/localizedStrings'
-import { useState } from 'react';
 import { FileSearchOutlined } from '@ant-design/icons';
-import { Modal } from 'antd';
 import {  
 	FlexContainer,
 	CentralizedContent,
@@ -11,57 +9,41 @@ import {
 
 export const CommonQuestion = () => {
 
-	const [isModalVisible, setIsModalVisible] = useState(false);
-	const [whichQuestionWasClicked,setWhichQuestionWasClicked] = useState(0)
-
-	const showModal = (questionClicked) => {
-		setIsModalVisible(true);
-		setWhichQuestionWasClicked(questionClicked);
-	}
-
-	const handleOk = () => setIsModalVisible(false);
-
-	const handleCancel = () => setIsModalVisible(false);
-
 	return (
 		<FlexContainer>
 			<CentralizedContent>
-			<TitleCommonQuestion> {  } </TitleCommonQuestion>
-				<Questions onClick={() => showModal(1)}> 
-					O que é a Netflix ? 
+			<TitleCommonQuestion> { localizedStrings.commonQuestion } </TitleCommonQuestion>
+				<Questions> 
+					{ localizedStrings.whatIsFelixflix } 
 					<FileSearchOutlined 
 						style={{position: 'relative', float: 'right', top: '5px'}} />
 				</Questions>
-				<Questions onClick={showModal}> 
-					Quanto custa a Netflix ? 
+				<Questions> 
+					{ localizedStrings.howMunchIsFelixflix } 
 					<FileSearchOutlined 
 						style={{position: 'relative', float: 'right', top: '5px'}} />
 				</Questions>
-				<Questions onClick={showModal}> 
-					Onde posso assistir ? 
+				<Questions> 
+					{ localizedStrings.canWhereWatch } 
 					<FileSearchOutlined 
 						style={{position: 'relative', float: 'right', top: '5px'}} />
 				</Questions>
-				<Questions onClick={showModal}> 
-					Como faço para cancelar ?
+				<Questions> 
+					{ localizedStrings.howDoICancel }
 					<FileSearchOutlined 
 						style={{position: 'relative', float: 'right', top: '5px'}} />
 				</Questions>
-				<Questions onClick={showModal}> 
-					O que eu posso assistir na Netflix ?
+				<Questions> 
+					{ localizedStrings.whatCanIWatchOnFelixflix }
 					<FileSearchOutlined 
 						style={{position: 'relative', float: 'right', top: '5px'}} />
 			 	</Questions>
-				<Questions onClick={showModal}> 
-					A Netflix é adequeada para crianças ?
+				<Questions> 
+					{ localizedStrings.IsFelixflixSuitableForChildren }
 					<FileSearchOutlined 
 						style={{position: 'relative', float: 'right', top: '5px'}} />
 				</Questions>
 			</CentralizedContent>
-			
-			<Modal title="Basic Modal" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-	        <p> { console.log(localizedStrings) } </p>
-	    </Modal>
 
 		</FlexContainer>
 	)
