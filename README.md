@@ -25,3 +25,5 @@ react-localization | Pixabay  |
 ***react-localization***: Serve para armazenar as palavras de forma indireta e ajuda com a troca de idiomas. ***(Inglês funciona, mas eu não habilitei)***
 
 ***Pixabay***: Banco de imagens (com licença creative commons) para usar em projetos.
+
+Link do site: https://felixflix.netlify.app
