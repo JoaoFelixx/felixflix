@@ -1,4 +1,4 @@
-import { localizedStrings } from '../../constants/localizedStrings'
+import { localizedStrings } from '../../constants/localizedStrings';
 import { FileSearchOutlined } from '@ant-design/icons';
 import {  
 	FlexContainer,

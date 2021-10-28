@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
+const headerImages = ['header1.jpg','header2.jpg','header3.jpg','header4.jpg','header5.jpg']
+const selectedImage = Math.round(Math.random() * headerImages.length);
+  
 export const StyledHeader = styled.div`
-  background-image: url('./img/felixflix.jpg');
+  background-image: url(./img/${headerImages[selectedImage] || 'header2.jpg'});
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,7 +16,7 @@ export const Image = styled.img`
   width: 150px;
   
   @media (max-width: 400px) {
-  width: 33%;
+    width: 40%;
   }
 `;
 
@@ -59,19 +62,3 @@ export const DivSearch = styled.div`
     width: 90%;
   }
 `;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

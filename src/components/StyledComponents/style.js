@@ -62,6 +62,9 @@ export const CentralizedContent = styled.div`
   width: 70%;
   margin-right: auto;
   margin-left: auto;
+  @media (max-width: 920px) {
+    width: 100%;
+  }
 `;
 
 export const Questions = styled.button` 
@@ -75,6 +78,9 @@ export const Questions = styled.button`
   padding: 20px;
   border: none;
   cursor: pointer;
+  @media (max-width: 620px) {
+    font-size: 12px;
+  }
 `;
 
 export const TitleCommonQuestion = styled.h1` 
