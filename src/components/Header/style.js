@@ -28,7 +28,7 @@ export const Title = styled.h1`
   font-weight: bold;
   
   @media (max-width: 600px) {
-    line-height 30px; 
+    line-height 40px; 
   }
 `;
 
@@ -61,4 +61,9 @@ export const DivSearch = styled.div`
   @media (max-width: 630px) {
     width: 90%;
   }
+`;
+
+export const Logo = styled.h2`
+  color: #FF0000;
+  font-weight: bold; 
 `;

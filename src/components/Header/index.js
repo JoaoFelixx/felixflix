@@ -7,7 +7,7 @@ import {
   DivSearch,
   Content, 
   Title,
-  Image,
+  Logo,
 } from './style'
 
 const { Option } = Select;
@@ -17,10 +17,9 @@ export const Header = () => {
   return (
     <StyledHeader>
       <FlexContainer> 
-        <Image 
-          loading="lazy"
-          src="./img/logo.svg" 
-          alt="Felixflix"/> 
+        <Logo>
+          FELIXFLIX
+        </Logo>
         <div>
           <Select 
             defaultValue={localizedStrings.portuguese}

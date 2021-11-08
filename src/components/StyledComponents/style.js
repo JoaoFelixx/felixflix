@@ -71,15 +71,15 @@ export const Questions = styled.button`
   width: 100%;
   background-color: #303030;
   color: #ffffff;
-  margin: 4px; 
+  margin: 6px; 
   font-size: 26px;
   font-weight: 400px;
   text-align: left;
-  padding: 20px;
+  padding: 24px;
   border: none;
   cursor: pointer;
   @media (max-width: 620px) {
-    font-size: 12px;
+    font-size: 18px;
   }
 `;
 
